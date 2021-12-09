@@ -48,6 +48,7 @@ class _BottomNavBar extends State<BottomNavBar> {
         label: 'Map',
       ),
     ];
+
     return items;
   }
 
