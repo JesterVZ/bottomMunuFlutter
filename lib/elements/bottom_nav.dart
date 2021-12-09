@@ -1,11 +1,11 @@
 import 'package:bottom_menu_flutter/screens/profile_page.dart';
-import 'package:bottom_menu_flutter/screens/row_bar.dart';
+import 'package:bottom_menu_flutter/elements/row_bar.dart';
 import 'package:bottom_menu_flutter/screens/settings_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'chat_page.dart';
-import 'map_page.dart';
+import '../screens/chat_page.dart';
+import '../screens/map_page.dart';
 import 'globals.dart';
 
 class BottomNavBar extends StatefulWidget {

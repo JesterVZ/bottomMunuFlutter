@@ -1,4 +1,4 @@
-import 'package:bottom_menu_flutter/screens/bottom_nav.dart';
+import 'package:bottom_menu_flutter/elements/bottom_nav.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
