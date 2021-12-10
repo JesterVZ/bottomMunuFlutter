@@ -1,4 +1,3 @@
-import 'package:bottom_menu_flutter/elements/row_bar.dart';
 import 'package:bottom_menu_flutter/screens/layout_2/settings_page_2.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

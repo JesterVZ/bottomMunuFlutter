@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 class DropDownMenuElement extends StatefulWidget {
   const DropDownMenuElement({Key? key}) : super(key: key);
 
-
   @override
   State<StatefulWidget> createState() => _DropDownMenuElement();
 }
@@ -22,7 +21,7 @@ class _DropDownMenuElement extends State<DropDownMenuElement>{
           value: value,
           child: Text(value),
         );
-      }).toList(),
+      }).toList(), onChanged: (String? value) {  },
     );
   }
 }
